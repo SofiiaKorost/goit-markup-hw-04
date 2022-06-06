@@ -104,12 +104,12 @@ text-decoration: none;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    display: block;
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: #2196F3;
+    fill: #2196F3;
 }
 
 
@@ -148,9 +148,16 @@ text-decoration: none;
     align-items: center;
 }
 
+.link {
+    fill: #757575;
+    display: flex;
+    align-items: baseline;
+}
+
+
 .auth-nav-icon {
     margin-right: 10px ;
-    fill: #757575;
+    
 }
 
 
@@ -320,8 +327,9 @@ margin-top: 10px;
     padding-bottom: 16px;
 }
 .team-list li{
-    margin-right: 30px;
+    margin-right: 25px;
 }
+
 .team-list li:last-child{
     margin-right: 0px;
 }
@@ -353,6 +361,7 @@ margin-top: 10px;
 .member-soc-list {
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
 
 }
 
@@ -371,10 +380,7 @@ margin-top: 10px;
 
 .team-list li {
     background: #FFFFFF;
-        /* material shadow v1 */
-    
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -532,6 +538,7 @@ margin-top: 10px;
     fill: #FFFFFF;
 }
 
+
 /*Bозможности*/
 
 
@@ -620,4 +627,15 @@ margin-top: 10px;
 
 .photos {
     flex-basis: calc(100% / 3 - 30px);
+}
+
+
+.images-list li:hover,
+.images-list li:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.opportunity-list li:hover,
+.opportunity-list li:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
