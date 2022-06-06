@@ -326,9 +326,7 @@ margin-top: 10px;
     padding-top: 30px;
     padding-bottom: 16px;
 }
-.team-list li{
-    margin-right: 25px;
-}
+
 
 .team-list li:last-child{
     margin-right: 0px;
@@ -378,10 +376,13 @@ margin-top: 10px;
     background-color: #2196F3;
 }
 
-.team-list li {
-    background: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
 
+
+.team-list-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background: #FFFFFF;
+        border-radius: 0px 0px 4px 4px;
+        margin-right: 25px;
 }
 
 /*Постоянные клиенты*/
@@ -538,6 +539,14 @@ margin-top: 10px;
     fill: #FFFFFF;
 }
 
+.page-footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-icon-div {
+    padding-left: 70px;
+}
 
 /*Bозможности*/
 
@@ -557,9 +566,9 @@ margin-top: 10px;
     background: #F5F4FA;
     border-radius: 4px;
     border: none;
-    margin-right: 8px;
     padding: 6px 22px;
     min-width: 73px;
+    margin-right: 8px;
 }
 
 
@@ -567,12 +576,14 @@ margin-top: 10px;
 .opportunity-button:focus {
     background: #2196F3;
     color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .opportunity-list {
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+    
 }
 
 
@@ -635,7 +646,4 @@ margin-top: 10px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.opportunity-list li:hover,
-.opportunity-list li:focus {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+
