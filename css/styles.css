@@ -426,18 +426,22 @@ margin-top: 10px;
     min-height: 92px;
     justify-content: center;
     align-items: center;
-    fill: #AFB1B8;
-    border: 1px solid #AFB1B8;
     border-radius: 4px;
     padding-top: 16px;
     padding-bottom: 16px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
 }
 
-.regular-customers-icon:hover,
-.regular-customers-icon:focus {
+
+.regular-customers-link:focus .regular-customers-icon,
+.regular-customers-link:hover .regular-customers-icon {
     fill: #2196F3;
-    border: 1px solid #2196F3
+    border: 1px solid #2196F3;
+
 }
+
+
 
 
 
